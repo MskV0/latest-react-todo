@@ -82,23 +82,34 @@ export default function App() {
           </button>
         </div>
 
-        {/* Bulk Action Buttons */}
-        {todos.length > 0 && (
-          <div className="flex gap-3">
-            <button
-              onClick={markAllAsComplete}
-              className="bg-green-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow hover:bg-green-600 transition flex-1"
-            >
-              Mark All Complete
-            </button>
-            <button
-              onClick={deleteAllTodos}
-              className="bg-red-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow hover:bg-red-600 transition flex-1"
-            >
-              Delete All
-            </button>
-          </div>
-        )}
+{/* Bulk Action Buttons */}
+{todos.length > 0 && (
+  <div className="flex gap-3">
+    <button
+      onClick={() => {
+        // Check if all todos are already complete
+        const allComplete = todos.every(todo => todo.completed);
+        
+        // Toggle all todos to the opposite state
+        const updatedTodos = todos.map(todo => ({
+          ...todo,
+          completed: !allComplete
+        }));
+        
+        setTodos(updatedTodos);
+      }}
+      className="bg-green-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow hover:bg-green-600 transition flex-1"
+    >
+      {todos.every(todo => todo.completed) ? 'Mark All Incomplete' : 'Mark All Complete'}
+    </button>
+    <button
+      onClick={deleteAllTodos}
+      className="bg-red-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow hover:bg-red-600 transition flex-1"
+    >
+      Delete All
+    </button>
+  </div>
+)}
 
         {/* ToDo List */}
         <ToDoList
