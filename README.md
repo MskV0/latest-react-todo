@@ -2,7 +2,7 @@
 
 A simple, yet fully functional Todo List application built with React and styled with Tailwind CSS.
 
-![Todo List App Screenshot](screenshot.png)
+![Todo List App Screenshot](screenshot.svg)
 
 ## Features
 
@@ -46,7 +46,7 @@ react-todo-app/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-todo-app.git
+   git clone https://github.com/MskV0/latest-react-todo.git
    cd react-todo-app
    ```
 
@@ -116,6 +116,4 @@ npm run preview
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-
-- This project was created as part of a React assignment.
 - Thanks to Tailwind CSS for the styling utilities.

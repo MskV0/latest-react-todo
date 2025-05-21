@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1440 810" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser background -->
+  <rect width="1440" height="810" fill="#e0e8f5"/>
+  
+  <!-- Browser window -->
+  <rect x="0" y="0" width="1440" height="810" fill="#4b3c30" stroke="#333" stroke-width="1"/>
+  
+  <!-- Browser header -->
+  <rect x="0" y="0" width="1440" height="53" fill="#5d4a3b"/>
+  <circle cx="16" cy="17" r="8" fill="#ff6058"/>
+  <circle cx="38" cy="17" r="8" fill="#ffbd2e"/>
+  <circle cx="60" cy="17" r="8" fill="#28ca41"/>
+  
+  <!-- Tab bar -->
+  <rect x="45" y="8" width="225" height="35" rx="8" fill="#6d584a"/>
+  <rect x="45" y="8" width="35" height="35" rx="8" fill="#6d584a"/>
+  <rect x="80" y="8" width="155" height="35" rx="0" fill="#6d584a"/>
+  <rect x="235" y="8" width="35" height="35" rx="8" fill="#6d584a"/>
+  <text x="150" y="30" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Todo List</text>
+  <text x="220" y="28" font-family="Arial" font-size="18" fill="#aaa" text-anchor="middle">×</text>
+  <text x="250" y="28" font-family="Arial" font-size="18" fill="#aaa" text-anchor="middle">+</text>
+  
+  <!-- Address bar -->
+  <rect x="45" y="53" width="1350" height="35" fill="#5d4a3b"/>
+  <rect x="120" y="60" width="1000" height="23" rx="4" fill="#4b3c30"/>
+  <text x="135" y="76" font-family="Arial" font-size="13" fill="#ddd">localhost:5173/latest-react-todo/</text>
+  
+  <!-- Main browser content -->
+  <rect x="0" y="88" width="1440" height="722" fill="#e0e8f5"/>
+  
+  <!-- Todo app container -->
+  <rect x="483" y="140" width="475" height="338" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Todo app header -->
+  <text x="720" y="185" font-family="Arial" font-size="32" fill="#0052cc" text-anchor="middle" font-weight="bold">To-do List</text>
+  <text x="720" y="214" font-family="Arial" font-size="16" fill="#666" text-anchor="middle">Manage your tasks efficiently</text>
+  
+  <!-- Add task form -->
+  <rect x="510" y="250" width="350" height="45" rx="6" fill="white" stroke="#ccc" stroke-width="1"/>
+  <text x="550" y="280" font-family="Arial" font-size="15" fill="#999">Add a new task...</text>
+  <rect x="870" y="250" width="65" height="45" rx="6" fill="#0066ff"/>
+  <text x="902" y="280" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Add</text>
+  
+  <!-- Bulk action buttons -->
+  <rect x="510" y="315" width="210" height="38" rx="6" fill="#00c853"/>
+  <text x="615" y="340" font-family="Arial" font-size="15" fill="white" text-anchor="middle">Mark All Complete</text>
+  <rect x="730" y="315" width="210" height="38" rx="6" fill="#f44336"/>
+  <text x="835" y="340" font-family="Arial" font-size="15" fill="white" text-anchor="middle">Delete All</text>
+  
+  <!-- Todo item 1 -->
+  <line x1="510" y1="375" x2="940" y2="375" stroke="#eee" stroke-width="1"/>
+  <rect x="526" y="382" width="16" height="16" stroke="#ccc" fill="white" stroke-width="1"/>
+  <text x="555" y="395" font-family="Arial" font-size="15" fill="#333">htd</text>
+  <rect x="847" y="380" width="50" height="25" rx="4" fill="#ffb300"/>
+  <text x="872" y="397" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Edit</text>
+  <rect x="905" y="380" width="50" height="25" rx="4" fill="#f44336"/>
+  <text x="930" y="397" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Delete</text>
+  
+  <!-- Todo item 2 -->
+  <line x1="510" y1="420" x2="940" y2="420" stroke="#eee" stroke-width="1"/>
+  <rect x="526" y="430" width="16" height="16" stroke="#ccc" fill="white" stroke-width="1"/>
+  <text x="555" y="443" font-family="Arial" font-size="15" fill="#333">dht</text>
+  <rect x="847" y="428" width="50" height="25" rx="4" fill="#ffb300"/>
+  <text x="872" y="445" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Edit</text>
+  <rect x="905" y="428" width="50" height="25" rx="4" fill="#f44336"/>
+  <text x="930" y="445" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Delete</text>
+  
+  <!-- Windows taskbar -->
+  <rect x="0" y="770" width="1440" height="40" fill="#333"/>
+  
+  <!-- Time display -->
+  <text x="1410" y="795" font-family="Arial" font-size="14" fill="white" text-anchor="end">08:21 AM</text>
+  <text x="1410" y="810" font-family="Arial" font-size="12" fill="white" text-anchor="end">21-05-2025</text>
+</svg>
