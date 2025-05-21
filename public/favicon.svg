@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="12" fill="#3B82F6"/>
-  <path d="M20 32L28 40L44 24" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14" y="14" width="36" height="36" rx="2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="#6366F1"/>
+  
+  <!-- Paper effect with fold -->
+  <path d="M12 12h40v40h-40z" fill="white"/>
+  <path d="M52 12v8l-8-8" fill="#E5E7EB"/>
+  
+  <!-- Task lines -->
+  <line x1="18" y1="22" x2="46" y2="22" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="18" y1="32" x2="38" y2="32" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="18" y1="42" x2="42" y2="42" stroke="#CBD5E1" stroke-width="2"/>
+  
+  <!-- Checkmark -->
+  <circle cx="24" cy="32" r="5" fill="#10B981"/>
+  <path d="M21 32l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Empty checkbox -->
+  <rect x="19" y="17" width="10" height="10" rx="2" fill="white" stroke="#94A3B8" stroke-width="1.5"/>
+  
+  <!-- Star for priority task -->
+  <path d="M24 42l-1.5 1 0.5-2-1.5-1.5 2-0.5 1-1.5 0.5 2 2 0.5-1.5 1 0.5 2z" fill="#FBBF24"/>
 </svg>
